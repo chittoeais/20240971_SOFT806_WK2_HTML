@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | Sample Site</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; line-height: 1.5; }
+    header { padding: 16px; border-bottom: 1px solid #ddd; }
+    nav a { margin-right: 12px; text-decoration: none; }
+    main { padding: 16px; max-width: 900px; }
+    form { border: 1px solid #eee; border-radius: 8px; padding: 12px; max-width: 520px; }
+    label { display: block; margin-top: 10px; }
+    input, textarea { width: 100%; padding: 8px; margin-top: 4px; box-sizing: border-box; }
+    button { margin-top: 12px; padding: 10px 12px; cursor: pointer; }
+    footer { padding: 16px; border-top: 1px solid #ddd; color: #555; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Contact</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <p>Send us a message (demo form; it won’t submit anywhere without a backend):</p>
+
+    <form>
+      <label for="name">Name</label>
+      <input id="name" name="name" type="text" placeholder="Your name" required />
+
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" placeholder="you@example.com" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Type your message..." required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </main>
+
+  <footer>
+    <small>© 2026 Sample Site</small>
+  </footer>
+</body>
+</html>
