@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Products | Sample Site</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; line-height: 1.5; }
+    header { padding: 16px; border-bottom: 1px solid #ddd; }
+    nav a { margin-right: 12px; text-decoration: none; }
+    main { padding: 16px; max-width: 900px; }
+    .grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+    .card { border: 1px solid #eee; border-radius: 8px; padding: 12px; }
+    .price { font-weight: bold; }
+    footer { padding: 16px; border-top: 1px solid #ddd; color: #555; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Products</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <p>Here are some sample products:</p>
+
+    <section class="grid" aria-label="Product list">
+      <article class="card">
+        <h2>Product A</h2>
+        <p class="price">$19.99</p>
+        <p>Basic starter item for demonstration.</p>
+      </article>
+
+      <article class="card">
+        <h2>Product B</h2>
+        <p class="price">$39.99</p>
+        <p>Mid-tier example with a short description.</p>
+      </article>
+
+      <article class="card">
+        <h2>Product C</h2>
+        <p class="price">$79.99</p>
+        <p>Premium example product for browsing.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <small>© 2026 Sample Site</small>
+  </footer>
+</body>
+</html>
